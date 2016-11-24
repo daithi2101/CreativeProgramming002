@@ -1,4 +1,4 @@
-void setup() {
+void setdown() {
   size(480, 120);
 }
 
@@ -9,3 +9,4 @@ void draw() {
     fill(255);
   }
   ellipse(mouseX, mouseY, 80, 80);
+}
