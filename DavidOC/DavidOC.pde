@@ -1,5 +1,5 @@
 void setup() {
-  size(480, 120);
+  size(480, 240);
 }
 // Commenting for the craic
 void draw() {
