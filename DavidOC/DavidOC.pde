@@ -9,4 +9,5 @@ void draw() {
     fill(255);
   }
   ellipse(50, mouseY, 80, 80);
+  rectangle(100, 100, 75, 75);
 }
