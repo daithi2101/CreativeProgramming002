@@ -4,7 +4,7 @@ void setup() {
 // Commenting for the craic
 void draw() {
   if (mousePressed) {
-    color(127);
+    fill(127);
   } else {
     fill(255);
   }
