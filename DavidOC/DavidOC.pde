@@ -3,7 +3,7 @@ void setup() {
 }
 // Commenting for the craic
 void draw() {
-  rotate(mouseX / 100.0);
+  translate(mouseX, mouseY);
   if (mousePressed) {
     line(20, 40, 80, 80);
     line(80, 40, 140, 80);
@@ -18,4 +18,4 @@ void draw() {
   }
   ellipse(50, mouseY, 80, 80);
   rect(100, 100, 75, 75);
-}
+} 
