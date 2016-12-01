@@ -3,6 +3,7 @@ void setup() {
 }
 // Commenting for the craic
 void draw() {
+  rotate(mouseX / 100.0);
   if (mousePressed) {
     line(20, 40, 80, 80);
     line(80, 40, 140, 80);
