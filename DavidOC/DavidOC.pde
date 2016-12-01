@@ -16,6 +16,6 @@ void draw() {
   } else {
     fill(255);
   }
-  ellipse(50, mouseY, 80, 80);
+  ellipse(50, 50, 80, 80);
   rect(100, 100, 75, 75);
 } 
