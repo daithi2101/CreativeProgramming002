@@ -8,7 +8,6 @@ void draw() {
   } else {
     fill(255);
   }
-  print("You know you're right");
   ellipse(50, mouseY, 80, 80);
   rect(100, 100, 75, 75);
 }
