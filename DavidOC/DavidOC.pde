@@ -7,6 +7,11 @@ void draw() {
   float scalar = mouseY / 60.0;
   scale(scalar);
   if (mousePressed) {
+    if (mouseButton == LEFT) {
+      fill(127);
+    } else {
+      fill(0);
+    }
     line(20, 40, 80, 80);
     line(80, 40, 140, 80);
     line(140, 40, 200, 80);
@@ -14,7 +19,6 @@ void draw() {
     line(260, 40, 320, 80);
     line(320, 40, 380, 80);
     line(380, 40, 440, 80);
-    fill(127);
   } else {
     fill(255);
   }
