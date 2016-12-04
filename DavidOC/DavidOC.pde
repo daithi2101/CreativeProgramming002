@@ -4,6 +4,8 @@ void setup() {
 // Commenting for the craic
 void draw() {
   translate(mouseX, mouseY);
+  float scalar = mouseX / 60.0;
+  scale(scalar);
   if (mousePressed) {
     line(20, 40, 80, 80);
     line(80, 40, 140, 80);
