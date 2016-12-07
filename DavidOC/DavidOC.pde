@@ -7,7 +7,7 @@ void draw() {
   float scalar = mouseY / 30.0;
   scale(scalar);
   if (mousePressed) {
-    if (mouseButton == LEFT) {
+    if (mouseButton == RIGHT) {
       fill(127);
     } else {
       fill(0);
