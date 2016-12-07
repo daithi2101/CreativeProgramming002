@@ -4,7 +4,7 @@ void setup() {
 // Commenting for the craic
 void draw() {
   translate(mouseX, mouseY);
-  float scalar = mouseY / 60.0;
+  float scalar = mouseY / 30.0;
   scale(scalar);
   if (mousePressed) {
     if (mouseButton == LEFT) {
